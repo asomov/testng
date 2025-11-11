@@ -34,7 +34,7 @@ dependencies {
 
     "guiceApi"(platform("com.google.inject:guice-bom:5.1.0"))
     "guiceApi"("com.google.inject:guice")
-    "yamlImplementation"("org.yaml:snakeyaml:2.2")
+    "yamlImplementation"("org.snakeyaml:snakeyaml-engine:2.10")
 
     implementation(projects.testngCollections)
     implementation(projects.testngReflectionUtils)

@@ -19,7 +19,7 @@ java {
             api("com.google.inject:guice")
         }
         create("yaml") {
-            implementation("org.yaml:snakeyaml:2.2")
+            implementation("org.snakeyaml:snakeyaml-engine:2.10")
         }
     }
 }
@@ -56,9 +56,6 @@ tasks.mergedJar {
                 com.beust.jcommander;version="1.83",
                 org.slf4j;version="2.0",
                 com.google.inject;version="1.4";resolution:=optional,
-                org.yaml.snakeyaml;version="2.0";resolution:=optional,
-                org.yaml.snakeyaml.nodes;version="2.0";resolution:=optional,
-                org.yaml.snakeyaml.constructor;version="2.0";resolution:=optional
             """.trimIndent().replace("\n", ""),
             "Export-Package" to """
                 org.testng

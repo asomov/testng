@@ -25,7 +25,7 @@ public class DefaultTestngOsgiOptions {
         mavenBundle("org.assertj", "assertj-core").versionAsInProject(),
         mavenBundle("net.bytebuddy", "byte-buddy").versionAsInProject(),
         mavenBundle("com.google.inject", "guice").versionAsInProject(),
-        mavenBundle("org.yaml", "snakeyaml").versionAsInProject(),
+        mavenBundle("org.snakeyaml", "snakeyaml-engine").versionAsInProject(),
         mavenBundle("com.google.guava", "guava").versionAsInProject(),
         mavenBundle("com.google.guava", "failureaccess").versionAsInProject(),
         mavenBundle("com.google.guava", "listenablefuture").versionAsInProject(),
